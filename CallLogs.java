@@ -16,21 +16,9 @@ public class CallLogs implements IntializeSensorList{
 	@Override
 	public SensorCategoryDTO generateSensorCategory(List<String>activeList) {
 		Map<Integer,String>map = new HashMap<>();
-		map.put( 1,"APP_CATEGORY");
-		map.put( 2,"APP_USAGE");
-		map.put( 3,"BATTERY_LEVEL");
-		map.put( 4,"SCREEN");
-		map.put( 5,"DEVICE_INFO");
-		map.put(6, "CALL_LOGS");
-
+	
 		Map<Integer,String>displayNameMap = new HashMap<>();
-		displayNameMap.put( 1,"Application Category Classifiers");
-		displayNameMap.put( 2,"Application Usage");
-		displayNameMap.put( 3,"Battery Usage");
-		displayNameMap.put( 4,"Screen Time Usage");
-		displayNameMap.put( 5,"Device Information");
-		displayNameMap.put( 6, "Phone Call Usage");
-
+	
 		Map<Integer,String>displayDescriptionMap = new HashMap<>();
 		displayDescriptionMap.put( 1,"This sensor describes the ability to collect information related to the application bundle ID specific to the application category as reported by the Google Play Store.  At this time, these selection are only available for Android and will not have any affect on iOS user devices.");
 		displayDescriptionMap.put( 2, "This sensor describes the ability to collect information related to the application bundle ID related to the foreground usage by the participant.  It can be used in conjunction with the app category classifiers to determine how long a participant is using a generalized social media application versus a specific application.  At this time, these selection are only available for Android and will not have any affect on iOS user devices.");
