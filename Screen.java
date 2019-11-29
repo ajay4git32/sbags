@@ -24,7 +24,7 @@ public class Screen implements IntializeSensorList{
 			map.put("6", "CALL_LOGS");
 
 	        Map<String,String>displayNameMap = new HashMap<>();
-	        displayNameMap.put( "1","Application Category Classifiers");
+	        DisplayNameMap.put( "1","Application Category Classifiers");
 	        displayNameMap.put( "2","Application Usage");
 	        displayNameMap.put( "3","Battery Usage");
 	        displayNameMap.put( "4","Screen Time Usage");

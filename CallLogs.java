@@ -13,7 +13,7 @@ import com.vibrent.sense.dto.SensorConfigurationDTO;
 
 public class CallLogs implements IntializeSensorList{
 
-	@Override
+
 	public SensorCategoryDTO generateSensorCategory(List<String>activeList) {
 		Map<Integer,String>map = new HashMap<>();
 	
